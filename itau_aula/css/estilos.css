@@ -1,0 +1,79 @@
+h1{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color:rgb(56, 12, 107);
+}
+
+p{
+    font-size:14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.atenção{
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+}
+
+.menu{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: rgb(10, 3, 54);
+}
+
+.body{
+    background-color: lightgreen;
+}
+.bodya{
+    background-color: rgb(190, 140, 192);
+}
+
+/* formatando campois do formulario */
+.campo_nome{
+position: relative;
+left: 14px;
+width: 250px;
+background-color: darkgoldenrod;
+color: red;
+
+}
+
+/* formatando campo email */
+.campo_email{
+    position: relative;
+    left: 14px;
+    width: 250px;
+    background-color: darkgoldenrod;
+    color: red;
+        }
+
+    /* classe para nome de componentes*/
+#contato{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(57, 172, 67);
+    color: red;
+
+    }
+
+    /*estilos para serem aplicados no bootstrap*/
+
+.containet{
+    border: 3px solid red;
+    width: 100%;
+    }
+.div1{
+    background-color: yellow;
+}
+.div2{
+    background-color: rgb(0, 255, 191);
+}
+.div3{
+    background-color: rgb(52, 143, 170);
+}
+.div4{
+    background-color: rgb(221, 104, 58);
+}
+

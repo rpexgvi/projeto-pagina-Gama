@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gama Academy - Contatos</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+
+
+
+<body>
+
+ <!-- TABELA MENU -->
+<table border="0" width="100%" class="bodya" >
+
+    <tr>
+
+    <td align="center"><a href="../html/index.html"> <img src="../imagens/logo.png" width="160" height="40"> </a>  </td>
+    <td align="right">QUEM SOMOS</td>
+    <td align="right">PARA PESSOAS</td>
+    <td align="right">PARA EMPRESAS</td>
+    <td align="right">CONTATO </td>
+    <td align="right">CONTEÚDOS</td>   
+    
+    </tr>
+
+</table>
+    
+<!-- #criando formulario-->
+
+<form id="contato" method="POST">
+
+    <fieldset>
+        <legend>Preencha os campos do nosso formulário</legend>
+
+        <label>Nome:</label> <input type="text" name="nome" class="campo_nome" required> <br><br>
+        <label>Email:</label> <input type="email" email="email" class="campo_email" required> <br><br>
+        <label>Senha:</label> <input type="password" name="senha" required> <br><br>
+
+        <!-- #radio button -->
+        <label>Genero:</label> 
+        <input type="radio" name="genero" value="Feminino"> Feminino
+        <input type="radio" name="genero" value="Masculino"> Masculino
+        <input type="radio" name="genero" value="Não informado"> Não informado <br><br>
+
+        <!-- #criando dropdown escolhas -->
+        <label>Escolha o curso que deseja fazer </label>
+        </label>
+        <select required>
+            <option name="" value=""</option>
+            <option name="curso" value="HTML">HTML </option>
+            <option name="curso" value="CCS">CCS </option>
+            <option name="curso" value="XML">XML </option>
+            <option name="curso" value="JS">JS </option>
+
+        </select> <br><br>
+
+        <!-- #criando um checkbox -->
+        
+        <label>Escolha o periodo que deseja fazer o curso</label>
+        <input type="checkbox" name="check" value="Manhã"> Manhã
+        <input type="checkbox" name="check" value="Tarde"> Tarde
+        <input type="checkbox" name="check" value="Noite"> Noite <br><br>
+
+        <!-- #abrindo calendario para escolha da data -->
+        <label>Escolha a data da realização do curso</label>
+        <input type="date" name="date">  
+
+        <br><br>
+
+        <!-- #criando caixa de mensagem-->
+        <label>Mensagem </label> <br>
+        <textarea cols="35" row="4" name="mensagem"></textarea>
+        <br><br>
+
+        <!-- #Anexando arquivos -->
+        <label>Anexar comprovante de residencia</label>
+        <input type="file" name="arquivo">
+
+        
+        
+        <br><br>
+
+        <!-- #enviando os dados-->
+        <input type="submit" value="Enviar">
+
+        
+    </fieldset>
+
+</form>
+
+
+
+
+
+
+</body>
+</html>
